@@ -1,7 +1,7 @@
 # About it
- In this project, I will watch Reso Coder's tutorial video (https://youtu.be/CPKAgyp8cno) to learn how to properly create a singleton. The code will have many explanatory comments to facilitate its comprehension in case I forget something about it in the future.
+ In this project, I will watch GameDevHQ's tutorial video (https://youtu.be/EI1KJv8owCg) to learn how to properly create a singleton. The code will have many explanatory comments to facilitate its comprehension in case I forget something about it in the future.
  
-If you have any interest in learning about this topic or just want a written summary of Reso Coder's video, feel free to take a look at my notes too!
+If you have any interest in learning about this topic or just want a written summary of GameDevHQ's video, feel free to take a look at my notes too!
 
 # Roadmap
 - [ ] Create a game that gives the player the control to switch between scenes.
