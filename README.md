@@ -4,6 +4,6 @@
 If you have any interest in learning about this topic or just want a written summary of Reso Coder's video, feel free to take a look at my notes too!
 
 # Roadmap
-- [ ] Create a scene that gives the player the control to switch between scenes.
+- [ ] Create a game that gives the player the control to switch between scenes.
 - [ ] Create a singleton.
 - [ ] Explain the crucial parts of the code through comments.
