@@ -8,6 +8,6 @@ _- Jonathan Weinberger, from GameDevHQ._
 If you have any interest in learning about this topic or just want a written summary of GameDevHQ's video, feel free to take a look at my notes too!
 
 # Roadmap
-- [ ] Create a singleton.
+- [x] Create a singleton.
 - [ ] Create a game that uses this mechanism.
 - [ ] Explain the crucial parts of the code through comments.
