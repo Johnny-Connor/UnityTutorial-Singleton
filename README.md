@@ -9,5 +9,5 @@ If you have any interest in learning about this topic or just want a written sum
 
 # Roadmap
 - [x] Create a singleton.
-- [ ] Create a game that uses this mechanism.
+- [x] Create a game that uses this mechanism.
 - [ ] Explain the crucial parts of the code through comments.
