@@ -1,5 +1,6 @@
-﻿using UnityEngine;
+﻿using System.Globalization;
 using TMPro;
+using UnityEngine;
 
 public class UIManager : MonoBehaviour
 {
@@ -9,11 +10,11 @@ public class UIManager : MonoBehaviour
 
     void Update()
     {
-        MoneyText.text = "Money: $" + GameManager.Instance.Money;
-        CoffeesOwnedText.text = "Coffees Owned: " + GameManager.Instance.CoffeesOwned;
-        PhonesOwnedText.text = "Phones Owned: " + GameManager.Instance.PhonesOwned;
-        PCsOwnedText.text = "PC's Owned: " + GameManager.Instance.PCsOwned;
-        CarsOwnedText.text = "Cars Owned: " + GameManager.Instance.CarsOwned;
+        MoneyText.text = "Money: $" + GameManager.Instance.Money.ToString("n0", CultureInfo.InvariantCulture);
+        CoffeesOwnedText.text = "Coffees Owned: " + GameManager.Instance.CoffeesOwned.ToString("n0", CultureInfo.InvariantCulture);
+        PhonesOwnedText.text = "Phones Owned: " + GameManager.Instance.PhonesOwned.ToString("n0", CultureInfo.InvariantCulture);
+        PCsOwnedText.text = "PC's Owned: " + GameManager.Instance.PCsOwned.ToString("n0", CultureInfo.InvariantCulture);
+        CarsOwnedText.text = "Cars Owned: " + GameManager.Instance.CarsOwned.ToString("n0", CultureInfo.InvariantCulture);
     }
 
 }

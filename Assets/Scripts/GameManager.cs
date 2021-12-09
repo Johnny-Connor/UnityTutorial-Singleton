@@ -23,7 +23,6 @@ public class GameManager : MonoBehaviour
     public int PhonesOwned { get; set; }
     public int PCsOwned { get; set; }
     public int CarsOwned { get; set; }
-    private bool gotStarterMoney;
 
     void Awake()
     {
@@ -40,11 +39,8 @@ public class GameManager : MonoBehaviour
 
     private void Start()
     {
-        if (gotStarterMoney == false)
-        {
-            Money = 9;
-            gotStarterMoney = true;
-        }
+        //You can give initial values to your GameManager's variables in the "Start" function.
+        Money = 3;
     }
 
 }

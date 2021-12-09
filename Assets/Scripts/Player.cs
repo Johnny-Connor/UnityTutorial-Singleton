@@ -58,7 +58,7 @@ public class Player : MonoBehaviour
 
     public void Work()
     {
-        GameManager.Instance.Money += GameManager.Instance.CoffeesOwned + GameManager.Instance.PhonesOwned * 3 + GameManager.Instance.PCsOwned * 6 + GameManager.Instance.CarsOwned * 12;
+        GameManager.Instance.Money += GameManager.Instance.CoffeesOwned + GameManager.Instance.PhonesOwned * 9 + GameManager.Instance.PCsOwned * 81 + GameManager.Instance.CarsOwned * 729;
     }
 
     public void GoToScene1()
