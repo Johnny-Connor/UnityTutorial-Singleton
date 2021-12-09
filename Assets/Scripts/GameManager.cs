@@ -11,24 +11,40 @@ public class GameManager : MonoBehaviour
             //create logic to create the instance
             if (_instance == null)
             {
-                GameObject go = new GameObject("Game Manager");
+                GameObject go = new GameObject("GameManager");
                 go.AddComponent<GameManager>();
             }
             return _instance;
         }
     }
 
-    public int Score { get; set; }
+    public int Money { get; set; }
+    public int CoffeesOwned { get; set; }
+    public int PhonesOwned { get; set; }
+    public int PCsOwned { get; set; }
+    public int CarsOwned { get; set; }
+    private bool gotStarterMoney;
 
     void Awake()
     {
-        _instance = this;
-        DontDestroyOnLoad(this);
+        if (Instance == null)
+        {
+            _instance = this;
+            DontDestroyOnLoad(gameObject);
+        }
+        else
+        {
+            Destroy(gameObject);
+        }
     }
 
     private void Start()
     {
-        Score = 10;
+        if (gotStarterMoney == false)
+        {
+            Money = 9;
+            gotStarterMoney = true;
+        }
     }
 
 }
