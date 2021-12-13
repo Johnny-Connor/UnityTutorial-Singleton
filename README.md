@@ -3,7 +3,7 @@ _"Anything that's a manager class can and should be, for the most part, a single
 
 _- Jonathan Weinberger, from GameDevHQ._
 
-In this project, I will search and learn how to properly create a singleton. The code will have many explanatory comments to facilitate its comprehension in case I forget something about it in the future.
+In this project, I will learn how to properly create a singleton. The code will have many explanatory comments to facilitate its comprehension in case I forget something about it in the future.
  
 If you have any interest in learning about this topic, feel free to take a look at my notes too!
 
