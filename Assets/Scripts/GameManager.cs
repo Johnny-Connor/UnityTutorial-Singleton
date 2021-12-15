@@ -4,10 +4,10 @@ public class GameManager : MonoBehaviour
 {
 
     /* This variable is responsible for storing a instance of the GameManager class. 
-     * In our algorithm, if it returns null, it'll mean that the class hasn't been instantiated yet. */
+     * In this algorithm, if it returns null, it'll mean that the class hasn't been instantiated yet. */
     private static GameManager _instance;
 
-    /* Here lies the get property. Any script wanting to access our GameManager class will have to
+    /* Here lies the get property. Any script wanting to access the GameManager class will have to
      * mention this property to do so. */
     public static GameManager Instance
     {
