@@ -10,7 +10,7 @@ If you have any interest in learning about this topic, feel free to take a look 
 # Roadmap
 - [x] Create a singleton.
 - [x] Create a game that uses this mechanism.
-- [ ] Explain the crucial parts of the code through comments.
+- [x] Explain the crucial parts of the code through comments.
 
 # Sources:
 GameDevHQ's video (https://youtu.be/EI1KJv8owCg).
