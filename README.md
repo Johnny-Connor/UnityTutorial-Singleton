@@ -16,6 +16,6 @@ If you have any interest in learning about this topic, feel free to take a look 
 
 # Sources:
 
-GameDevHQ's video (https://youtu.be/EI1KJv8owCg).
+GameDevHQ's video: https://youtu.be/EI1KJv8owCg.
 
-Reso Coder's video (https://youtu.be/CPKAgyp8cno).
+Reso Coder's video: https://youtu.be/CPKAgyp8cno.
