@@ -14,7 +14,7 @@ If you have any interest in learning about this topic, feel free to take a look 
 - [x] Create a game that uses this mechanism.
 - [x] Explain the crucial parts of the code through comments.
 
-# Sources:
+# Sources
 
 GameDevHQ's video: https://youtu.be/EI1KJv8owCg.
 
