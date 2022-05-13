@@ -3,7 +3,7 @@
 public class GameManager : MonoBehaviour
 {
 
-    /* This variable is responsible for storing a instance of the GameManager class. 
+    /* This variable is responsible for storing an instance of the GameManager class. 
      * In this algorithm, if it returns null, it'll mean that the class hasn't been instantiated yet. */
     private static GameManager _instance;
 
